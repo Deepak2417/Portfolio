@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deepak Pandey | Platform Engineer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0d1117;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.9)
+    ),
+    url('https://images.unsplash.com/photo-1451187580459-43490279c0fa');
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h1{
+    font-size:4rem;
+    color:#58a6ff;
+}
+
+.hero h2{
+    font-weight:300;
+    margin-top:10px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:20px auto;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    margin-top:20px;
+    background:#238636;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    color:#58a6ff;
+    margin-bottom:50px;
+    font-size:2.5rem;
+}
+
+.about{
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+}
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.skill-card{
+    background:#161b22;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    transition:.3s;
+}
+
+.skill-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px rgba(88,166,255,.4);
+}
+
+.skill-card h3{
+    color:#58a6ff;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.project-card{
+    background:#161b22;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+}
+
+.project-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.project-content{
+    padding:20px;
+}
+
+.project-content h3{
+    color:#58a6ff;
+}
+
+.timeline{
+    max-width:800px;
+    margin:auto;
+}
+
+.timeline-item{
+    background:#161b22;
+    padding:20px;
+    border-left:4px solid #58a6ff;
+    margin-bottom:20px;
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#010409;
+}
+
+.glow{
+    color:#58a6ff;
+    text-shadow:0 0 10px #58a6ff;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<div class="hero">
+
+<h1 class="glow">Deepak Pandey</h1>
+
+<h2>Platform Engineer | DevOps Engineer | Cloud Enthusiast</h2>
+
+<p>
+4.5+ years of experience in enterprise backup administration,
+automation, disaster recovery, troubleshooting, Linux systems,
+and cloud-native technologies.
+</p>
+
+<a href="#projects" class="btn">View My Projects</a>
+
+</div>
+</header>
+
+<section>
+<h2 class="section-title">About Me</h2>
+
+<div class="about">
+<p>
+Experienced IT professional transitioning into Platform Engineering.
+Strong background in production support, automation, incident response,
+disaster recovery, and infrastructure operations. Passionate about
+building scalable cloud platforms using AWS, Kubernetes, Terraform,
+Docker, GitHub Actions, and modern DevOps practices.
+</p>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Technical Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">
+<h3>Linux</h3>
+<p>System Administration</p>
+</div>
+
+<div class="skill-card">
+<h3>AWS</h3>
+<p>Cloud Infrastructure</p>
+</div>
+
+<div class="skill-card">
+<h3>Docker</h3>
+<p>Containerization</p>
+</div>
+
+<div class="skill-card">
+<h3>Kubernetes</h3>
+<p>Container Orchestration</p>
+</div>
+
+<div class="skill-card">
+<h3>Terraform</h3>
+<p>Infrastructure as Code</p>
+</div>
+
+<div class="skill-card">
+<h3>GitHub Actions</h3>
+<p>CI/CD Automation</p>
+</div>
+
+<div class="skill-card">
+<h3>Python</h3>
+<p>Automation Scripts</p>
+</div>
+
+<div class="skill-card">
+<h3>Monitoring</h3>
+<p>Grafana & Prometheus</p>
+</div>
+
+</div>
+</section>
+
+<section id="projects">
+
+<h2 class="section-title">Featured Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+<img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa">
+
+<div class="project-content">
+<h3>AWS Infrastructure Automation</h3>
+<p>
+Provisioned complete AWS infrastructure using Terraform.
+</p>
+</div>
+
+</div>
+
+<div class="project-card">
+<img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31">
+
+<div class="project-content">
+<h3>Kubernetes Deployment</h3>
+<p>
+Deployed scalable applications using Kubernetes and Helm.
+</p>
+</div>
+
+</div>
+
+<div class="project-card">
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3">
+
+<div class="project-content">
+<h3>CI/CD Pipeline</h3>
+<p>
+Built automated deployment pipelines using GitHub Actions.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Career Highlights</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h3>Backup Administrator</h3>
+<p>
+Managed enterprise backup infrastructure and disaster recovery.
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>Automation Initiatives</h3>
+<p>
+Developed scripts to reduce manual operations and improve efficiency.
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>DevOps Transition</h3>
+<p>
+Hands-on experience with AWS, Docker, Kubernetes, Terraform and CI/CD.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Contact</h2>
+
+<div class="contact">
+
+<p>Email: your-email@example.com</p>
+<p>LinkedIn: linkedin.com/in/your-profile</p>
+<p>GitHub: github.com/yourusername</p>
+
+<a class="btn" href="#">Download Resume</a>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Deepak Pandey | Platform Engineering Portfolio</p>
+</footer>
+
+</body>
+</html>

@@ -1,6 +1,6 @@
 const text = [
 "Platform Engineering Enthusiast",
-"DevOps Engineer",
+"Backup and Reliability Engineer",
 "Cloud Automation Specialist",
 "Troubleshooting Expert"
 ];

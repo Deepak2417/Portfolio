@@ -2,199 +2,227 @@
 <html lang="en">
 
 <head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deepak Pandey | Backup & Recovery Engineer</title>
 
-    <title>Deepak Pandey | Platform Engineer</title>
+<link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="css/style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <nav class="navbar">
+<!-- NAV -->
 
-        <div class="logo">Deepak Pandey</div>
+<header class="nav">
 
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <div class="logo">Deepak Pandey</div>
+
+    <button class="menu-toggle" id="menuToggle">
+    
+      <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+    
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+    
+      </svg>
+    
+    </button>
+
+    <nav id="navbar">
+
+        <a href="#about">About</a>
+        <a href="#skills">Expertise</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Case Studies</a>
+        <a href="#contact">Contact</a>
 
     </nav>
 
-    <header class="hero">
+</header>
 
-        <div class="hero-content">
 
-            <h1>Production Reliability Engineer</h1>
+<!-- HERO -->
+<section class="hero">
 
-            <h2 id="typing"></h2>
+  <div class="hero-content">
 
-            <p>
-                5+ years managing enterprise production environments,
-                disaster recovery, troubleshooting critical incidents,
-                automation and cloud-native infrastructure.
-            </p>
+    <h1>Backup & Recovery Engineer</h1>
 
-            <a href="resume/Deepak_Pandey_Resume.pdf" class="btn">
-                Download Resume
-            </a>
+    <p>
+      Helping enterprises protect critical data, ensure business continuity,
+      and build reliable recovery solutions.
+    </p>
 
-        </div>
+    <div class="hero-buttons">
+      <a href="#experience" class="btn primary">View Experience</a>
+      <a href="resume/Deepak_Pandey_Resume.pdf" class="btn">Download Resume</a>
+    </div>
 
-    </header>
+  </div>
 
-    <section class="stats">
+</section>
 
-        <div>
-            <h3>5+</h3>
-            <p>Years Experience</p>
-        </div>
+<!-- METRICS -->
+<section class="metrics">
 
-        <div>
-            <h3>100+</h3>
-            <p>Incidents Resolved</p>
-        </div>
+  <div class="card">
+    <h2>5+</h2>
+    <p>Years Experience</p>
+  </div>
 
-        <div>
-            <h3>20+</h3>
-            <p>Automation Scripts</p>
-        </div>
+  <div class="card">
+    <h2>Enterprise</h2>
+    <p>Backup Systems</p>
+  </div>
 
-        <div>
-            <h3>99.9%</h3>
-            <p>Availability Focus</p>
-        </div>
+  <div class="card">
+    <h2>DR</h2>
+    <p>Disaster Recovery</p>
+  </div>
 
-    </section>
+  <div class="card">
+    <h2>Automation</h2>
+    <p>Operational Efficiency</p>
+  </div>
 
-    <section id="about">
+</section>
 
-        <h2>About Me</h2>
+<!-- ABOUT -->
+<section id="about" class="section">
 
-        <p>
-            Experienced Backup Administrator transitioning into Platform Engineering.
-            Strong expertise in production support, root cause analysis,
-            automation, Linux administration, AWS, Docker,
-            Kubernetes and Terraform.
-        </p>
+  <h2>About Me</h2>
 
-    </section>
+  <p>
+    I am a Backup & Recovery Engineer with 5+ years of experience in
+    enterprise backup administration, disaster recovery operations,
+    storage management, production support, and infrastructure troubleshooting.
+  </p>
 
-    <section id="skills">
+  <p>
+    I specialize in ensuring data protection, building recovery readiness,
+    and improving operational efficiency through automation.
+  </p>
 
-        <h2>Technology Stack</h2>
+</section>
 
-        <div class="skills">
+<!-- SKILLS -->
+<section id="skills" class="section">
 
-            <div class="card">
-                <img src="images/linux.png">
-                <h3>Linux</h3>
-            </div>
+  <h2>Core Expertise</h2>
 
-            <div class="card">
-                <img src="images/aws.png">
-                <h3>AWS</h3>
-            </div>
+  <div class="grid">
 
-            <div class="card">
-                <img src="images/docker.png">
-                <h3>Docker</h3>
-            </div>
+    <div class="card">
+      <h3>Backup Administration</h3>
+      <p>Monitoring, job management, troubleshooting</p>
+    </div>
 
-            <div class="card">
-                <img src="images/kubernetes.png">
-                <h3>Kubernetes</h3>
-            </div>
+    <div class="card">
+      <h3>Disaster Recovery</h3>
+      <p>Planning, validation, business continuity</p>
+    </div>
 
-            <div class="card">
-                <img src="images/terraform.png">
-                <h3>Terraform</h3>
-            </div>
+    <div class="card">
+      <h3>Storage Systems</h3>
+      <p>SAN, NAS, NFS, iSCSI</p>
+    </div>
 
-        </div>
+    <div class="card">
+      <h3>Automation</h3>
+      <p>PowerShell, Python, Shell scripting</p>
+    </div>
 
-    </section>
+  </div>
 
-    <section id="experience">
+</section>
 
-        <h2>Troubleshooting Expertise</h2>
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
 
-        <div class="timeline">
+  <h2>Professional Experience</h2>
 
-            <div class="timeline-card">
-                <h3>Incident Management</h3>
-                <p>
-                    Production outage response and troubleshooting.
-                </p>
-            </div>
+  <div class="timeline">
 
-            <div class="timeline-card">
-                <h3>Disaster Recovery</h3>
-                <p>
-                    Managed business-critical recovery situations.
-                </p>
-            </div>
+    <div class="timeline-item">
+      <h3>Backup Administrator</h3>
+      <p>Managed enterprise backup infrastructure, incident resolution, DR operations, and reporting.</p>
+    </div>
 
-            <div class="timeline-card">
-                <h3>Root Cause Analysis</h3>
-                <p>
-                    Identified and resolved infrastructure issues.
-                </p>
-            </div>
+    <div class="timeline-item">
+      <h3>Incident Management</h3>
+      <p>Handled production backup failures and ensured timely recovery of critical systems.</p>
+    </div>
 
-        </div>
+    <div class="timeline-item">
+      <h3>Automation Initiatives</h3>
+      <p>Developed scripts to automate backup monitoring and operational reporting.</p>
+    </div>
 
-    </section>
+  </div>
 
-    <section id="projects">
+</section>
 
-        <h2>Projects</h2>
+<!-- CASE STUDIES -->
+<section id="projects" class="section">
 
-        <div class="projects">
+  <h2>Case Studies</h2>
 
-            <div class="project">
-                <img src="images/troubleshooting.jpg">
-                <h3>Cloud Infrastructure Automation</h3>
-            </div>
+  <div class="grid">
 
-            <div class="project">
-                <img src="images/troubleshooting.jpg">
-                <h3>Kubernetes Deployment</h3>
-            </div>
+    <div class="card">
+      <h3>Backup Failure Resolution</h3>
+      <p>Identified storage path issues causing backup failures and restored operations.</p>
+    </div>
 
-            <div class="project">
-                <img src="images/troubleshooting.jpg">
-                <h3>GitHub Actions CI/CD</h3>
-            </div>
+    <div class="card">
+      <h3>Recovery Validation Process</h3>
+      <p>Designed structured validation approach for recovery testing.</p>
+    </div>
 
-        </div>
+    <div class="card">
+      <h3>Monitoring Automation</h3>
+      <p>Automated backup job mon  itoring and alerting process using scripts.</p>
+    </div>
 
-    </section>
+  </div>
 
-    <section id="contact">
+</section>
 
-        <h2>Contact</h2>
+<!-- CONTACT -->
+<section id="contact" class="section">
 
-        <p>Email: deepakpandey1006.1006@gmail.com</p>
+  <h2>Contact</h2>
 
-        <p>GitHub: github.com/deepak2417</p>
+  <div class="contact-box">
 
-        <p>LinkedIn: linkedin.com/in/deepak-pandey-7a78731b1</p>
+    <div class="contact details">
+      <p>Email: workwithdeepak121@gmail.com</p>
+      <p>LinkedIn: linkedin.com/in/deepak-pandey-7a78731b1</p>
+      <p>GitHub: github.com/Deepak2417</p>
+    </div>
+    
+    <div class="contact-action">
+      <a class="btn primary" href="resume/Deepak_Pandey_Resume.pdf">
+        Download Resume
+      </a>
+    </div>
 
-    </section>
+  </div>
 
-    <script src="js/script.js"></script>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Deepak Pandey | Backup & Recovery Engineer</p>
+</footer>
+
+<script src="js/script.js"></script>
 
 </body>
-
 </html>
+
